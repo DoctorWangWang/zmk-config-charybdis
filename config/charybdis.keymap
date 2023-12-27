@@ -22,7 +22,7 @@
                                 &kp LWIN  &lt 1 SPACE  &kp LEFT_ALT    &kp ENTER  &lt 2 BACKSPACE
             >;
 
-            trackball-bindings = <&kp LC(TAB) LC(LS(TAB)) LG(PG_UP) LG(PG_DN))>;
+            trackball-bindings = <&mmv)>;
         };
 
         Lower {
