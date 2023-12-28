@@ -21,8 +21,6 @@
 &kp LEFT_SHIFT  &lt 3 Z  &kp X  &kp C     &kp V        &kp B           &kp N      &kp M            &kp COMMA  &kp DOT  &lt 3 SLASH  &kp RSHIFT
                                 &kp LWIN  &lt 1 SPACE  &kp LEFT_ALT    &kp ENTER  &lt 2 BACKSPACE
             >;
-
-            trackball-bindings = <&mmv)>;
         };
 
         Lower {
