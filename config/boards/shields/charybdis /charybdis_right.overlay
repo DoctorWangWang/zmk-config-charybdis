@@ -32,8 +32,8 @@
     spi0_sleep: spi0_sleep {
         group1 {
             psels = <NRF_PSEL(SPIM_SCK, 1, 13)>,
-                <NRF_PSEL(SPIM_MOSI, 1, 11)>,
-                <NRF_PSEL(SPIM_MISO, 1, 11)>;
+                <NRF_PSEL(SPIM_MOSI, 0, 1)>,
+                <NRF_PSEL(SPIM_MISO, 0, 1)>;
             low-power-enable;
         };
     };
@@ -52,7 +52,7 @@
         compatible = "pixart,pmw3610";
         reg = <0>;
         spi-max-frequency = <2000000>;
-        irq-gpios = <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        irq-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         snipe-layers = <1>; // optional indexes of snipe/precision layers
         scroll-layers = <2>; // optional indexes of drag scroll layers
     };
