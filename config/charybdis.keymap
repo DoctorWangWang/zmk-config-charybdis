@@ -45,10 +45,10 @@
 
         Mouse {
             bindings = <
-&bootloader  &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans  &trans  &trans  &trans
-&trans       &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans  &trans  &trans  &reset
-&trans       &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans  &trans  &trans  &bootloader
-                             &mkp RCLK  &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp LCLK
+&trans  &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans  &trans  &trans  &trans
+                        &mkp RCLK  &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp LCLK
             >;
         };
     };
